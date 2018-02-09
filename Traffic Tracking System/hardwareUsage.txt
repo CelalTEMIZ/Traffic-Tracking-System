@@ -1,0 +1,28 @@
+	
+
+--- Raspberry PI 3 ---
+
+
+--- Raspberry Pi 3 Model B    
+
+--- Donanim uzerinde Raspbian OS isletilmektedir.
+
+--- Cihazin ethernet baglantisini sagladiktan sonra bir IP adresi alacaksiniz.
+
+--- Cihazin terminaline baglanmak icin MobaXterm veya Putty programlarini kullanarak, bu IP uzerinden cihaza eriseceksiniz.
+
+--- Cihazin kullanici adi : pi || sifresi : raspberry 'dir.
+
+--- Cihaza erisim sagladiktan sonra terminale "cd lineDetection" yazarak, pi directory'nin altindaki "lineDetection" directory erisiniz.
+
+--- Daha sonra "lineDetection" directory içerisinde make yaparak kodu calistiriniz.
+
+
+
+
+
+--- Direksiyonun Baglantisi ---
+
+	--- Direksiyon uzerinde 1 adet motor bulunmaktadir.
+
+	--- Direksiyon uzerindeki motora bagli kablolardan birini Raspberry GPIO PIN 6 (GROUND), digerini de PIN 11 (PWM) 'e baglayiniz.
